@@ -45,7 +45,7 @@ def get_score(text_id):
     score_class = re.compile("score-label score-\d+")
     score = soup.find("div", class_=score_class).text
     return score
-
+#NICE
 
 if __name__ == "__main__":
     main()
